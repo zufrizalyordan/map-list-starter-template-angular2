@@ -1,5 +1,7 @@
 # Map & List starter template/view using Angular 2 and material design
 
+![App Screenshot](Screen Shot 2016-12-08 at 8.00.12 PM.png?raw=true "App Screenshot")
+
 ## Prerequisite
 - nodejs (i recommend installing with nvm)
 - typescript
