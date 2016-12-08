@@ -8,8 +8,9 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
     title: string = "List with Map view";
-    lat: number = 51.678418;
-    lng: number = 7.809007;
+    lat: number = -6.914744;
+    lng: number = 107.609810;
+    zoom: number = 14;
 
     messages: any[]  = [
         { avatar: 'https://randomuser.me/api/portraits/thumb/women/83.jpg', from: "Audrey", subject: "Item title 1", message: "item description. yes this is the description." },
