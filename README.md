@@ -1,4 +1,4 @@
-# Map & List view template using Angular 2 and material design
+# Map & List starter template/view using Angular 2 and material design
 
 ## Prerequisite
 - nodejs (i recommend installing with nvm)
