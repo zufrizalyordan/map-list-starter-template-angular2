@@ -1,11 +1,11 @@
 # Map & List view template using Angular 2 and material design
 
 ## Prerequisite
-- nodejs
+- nodejs (i recommend installing with nvm)
 - typescript
 - typings
-- Angular CLI: https://github.com/angular/angular-cli
-- Google Maps API key
+- [Angular CLI](https://github.com/angular/angular-cli)
+- [Google Maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 ## Installation
 Run `npm i`
@@ -21,4 +21,4 @@ The css layout is using flexbox, please find the solution yourself if you need t
 
 ## Thanks to
 - Everyone in the Angular 2 team & ecosystem
-- Sebastian Müller for the easy to use angular2-google-maps
+- Sebastian Müller for the easy to use [angular2-google-maps ](https://github.com/SebastianM/angular2-google-maps)
