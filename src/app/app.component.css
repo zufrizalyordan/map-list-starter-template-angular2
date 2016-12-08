@@ -1,0 +1,31 @@
+header, footer, .container{
+    display: flex;
+    width: 100%;
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+footer div.footer {
+    padding: 1rem;
+}
+
+.list-view {
+    order: 1;
+    flex: 2;
+    padding: 0.1rem;
+}
+
+.map-view {
+    order: 1;
+    flex: 4;
+    padding: 0.1rem;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.sebm-google-map-container {
+    height: 100%;
+}

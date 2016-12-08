@@ -1,3 +1,30 @@
-<h1>
-  {{title}}
-</h1>
+<header>
+    <md-toolbar [color]="toolbarColor">
+        <span>{{title}}</span>
+    </md-toolbar>
+</header>
+
+<div class="container">
+    <div class="list-view">
+        <md-list>
+            <md-list-item *ngFor="let message of messages">
+            <img md-list-avatar src="{{message.avatar}}" alt="avatar of {{message.from}}">
+            <h3 md-line> {{message.from}} </h3>
+            <p md-line>
+              <span> {{message.subject}} </span>
+              <span class="demo-2"> -- {{message.message}} </span>
+            </p>
+            </md-list-item>
+        </md-list>
+    </div>
+    <div class="map-view">
+        <sebm-google-map [latitude]="lat" [longitude]="lng">
+            <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker>
+        </sebm-google-map>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        ZUF @ 2016
+    </div>
+</footer>
